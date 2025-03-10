@@ -142,7 +142,7 @@ I will review:
 
 ### ❓ Questions?
 
-This README should cover everything. But if anything is unclear, please contact me before doing anything.
+This README should cover everything. But if anything is unclear, please don't hesitate to contact me!
 
 Good luck, and I look forward to seeing your work! 🚀
 
