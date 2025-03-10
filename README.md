@@ -1,6 +1,6 @@
 # Start for Business Development - Developer Assessment
 
-### Welcome to the Assessment!
+### Welcome!
 
 We appreciate your time and effort in taking this assessment. While it may seem extensive, especially for a short-term project, it is designed to ensure that we can collaborate effectively. Our goal is to evaluate your problem-solving approach, code structure, and ability to work within an existing codebase.
 
@@ -79,7 +79,7 @@ Add the products to the models exactly as shown in the Figma design.
 
 - You will receive access to the Figma file (Link down below)
 
-- The media/original folder contains all required images and assets.
+- The `media/original` folder contains all required images and assets.
 
 - Your implementation should match the design exactly.
 
