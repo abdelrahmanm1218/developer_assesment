@@ -1,0 +1,40 @@
+{% extends "base/website_base.html" %}
+
+<!-- Additional Data For Head -->
+{% block page_head %}
+
+{% load static %}
+
+<title>Home Page</title>
+
+{% endblock page_head %}
+
+<!-- Page Specific Local CSS Imports -->
+{% block page_css %}
+
+<link rel="stylesheet" type="text/x-scss" href="{% static 'website/scss/home.scss' %}" />
+
+{% endblock page_css %}
+
+<!-- Page Specific Local JavaScript Imports -->
+{% block page_js %}
+
+{% endblock page_js %}
+
+{% block website_body %}
+
+<div class="pages_container">
+
+    <div class="page-100">
+
+        <h1 class="hero_text">Home</h1>
+
+    </div>
+
+</div>
+
+{% block additional_dom_scripts %}
+
+{% endblock additional_dom_scripts %}
+
+{% endblock website_body %}
