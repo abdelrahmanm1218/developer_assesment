@@ -149,3 +149,5 @@ Good luck, and I look forward to seeing your work! 🚀
 #
 
 ### Figma Project Link: https://www.figma.com/design/DwhYny0ywnMuWDUgFOIBoK/Untitled?node-id=0-1&t=aG8DZHW14BKDOssj-1
+
+#### If the above link didnt work, then try this oe: https://www.figma.com/design/DwhYny0ywnMuWDUgFOIBoK/Untitled?node-id=0-1&t=aEivjaMchX45ZCvt-1
