@@ -1,0 +1,44 @@
+/* line 1, website/static/common/header.scss */
+:root {
+  --primary-yellow-color: #EAB308;
+  --primary-yellow-hover-color: #ba8c04; }
+
+/* line 6, website/static/common/header.scss */
+.navbar .container {
+  background-color: blue; }
+  /* line 8, website/static/common/header.scss */
+  .navbar .container .navbar-nav--links {
+    margin-left: 68px; }
+    /* line 11, website/static/common/header.scss */
+    .navbar .container .navbar-nav--links .nav-item a {
+      transition: all 0.3s ease; }
+      /* line 13, website/static/common/header.scss */
+      .navbar .container .navbar-nav--links .nav-item a:hover {
+        color: var(--primary-yellow-hover-color); }
+      /* line 16, website/static/common/header.scss */
+      .navbar .container .navbar-nav--links .nav-item a.active {
+        position: relative; }
+      /* line 19, website/static/common/header.scss */
+      .navbar .container .navbar-nav--links .nav-item a.active::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: var(--primary-yellow-color);
+        bottom: 0;
+        left: 0; }
+  /* line 35, website/static/common/header.scss */
+  .navbar .container .navbar-nav--actions .nav-item a {
+    color: white;
+    transition: all 0.3s ease; }
+    /* line 40, website/static/common/header.scss */
+    .navbar .container .navbar-nav--actions .nav-item a:hover {
+      color: var(--primary-yellow-hover-color); }
+  /* line 44, website/static/common/header.scss */
+  .navbar .container .navbar-nav--actions .nav-item .btn--signup {
+    background-color: var(--primary-yellow-color);
+    transition: all 0.3s ease;
+    border: none; }
+    /* line 50, website/static/common/header.scss */
+    .navbar .container .navbar-nav--actions .nav-item .btn--signup:hover {
+      background-color: var(--primary-yellow-hover-color); }

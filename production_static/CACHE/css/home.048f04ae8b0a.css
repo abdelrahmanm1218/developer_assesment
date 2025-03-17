@@ -1,0 +1,75 @@
+/* line 7, website/static/website/scss/home.scss */
+:root {
+  --primary-yellow-color: #EAB308;
+  --primary-yellow-hover-color: #ba8c04; }
+
+/* line 11, website/static/website/scss/home.scss */
+.hero {
+  overflow: hidden !important;
+  height: 90vh; }
+  /* line 15, website/static/website/scss/home.scss */
+  .hero .container {
+    display: flex;
+    height: 100%; }
+    /* line 19, website/static/website/scss/home.scss */
+    .hero .container .text {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px; }
+      /* line 25, website/static/website/scss/home.scss */
+      .hero .container .text h1 {
+        font-weight: 700;
+        line-height: 120%;
+        font-size: 30px; }
+        /* line 29, website/static/website/scss/home.scss */
+        .hero .container .text h1 span {
+          color: var(--primary-yellow-color); }
+      /* line 33, website/static/website/scss/home.scss */
+      .hero .container .text p {
+        width: 60%; }
+      /* line 36, website/static/website/scss/home.scss */
+      .hero .container .text .btn--get-started {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: none;
+        width: fit-content;
+        background-color: var(--primary-yellow-color);
+        transition: all 0.3s ease;
+        font-size: 12px;
+        font-weight: 500; }
+        /* line 47, website/static/website/scss/home.scss */
+        .hero .container .text .btn--get-started:hover {
+          background-color: var(--primary-yellow-hover-color); }
+    /* line 52, website/static/website/scss/home.scss */
+    .hero .container .images {
+      position: relative;
+      width: 50%; }
+      /* line 56, website/static/website/scss/home.scss */
+      .hero .container .images img {
+        position: absolute; }
+      /* line 60, website/static/website/scss/home.scss */
+      .hero .container .images .image--sofa {
+        left: -40%;
+        bottom: 0%;
+        width: 120%;
+        z-index: 5; }
+      /* line 66, website/static/website/scss/home.scss */
+      .hero .container .images .image--plant {
+        height: 100%;
+        right: -5%;
+        bottom: 5%;
+        z-index: 2; }
+  /* line 74, website/static/website/scss/home.scss */
+  .hero::after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 110%;
+    z-index: -1;
+    background-color: #CEDEEB;
+    right: -28%;
+    top: -30%;
+    transform: skewX(-30deg); }

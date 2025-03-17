@@ -1,0 +1,20 @@
+/* line 3, website/static/common/header.scss */
+.navbar .container .navbar-nav--links {
+  background-color: blue;
+  margin-left: 68px; }
+
+/* line 10, website/static/common/header.scss */
+.navbar .container .navbar-nav--actions .nav-item a {
+  color: white;
+  transition: all 0.3s ease; }
+  /* line 15, website/static/common/header.scss */
+  .navbar .container .navbar-nav--actions .nav-item a:hover {
+    color: #ba8c04; }
+
+/* line 19, website/static/common/header.scss */
+.navbar .container .navbar-nav--actions .nav-item .btn--signup {
+  background-color: #EAB308;
+  transition: all 0.3s ease; }
+  /* line 24, website/static/common/header.scss */
+  .navbar .container .navbar-nav--actions .nav-item .btn--signup:hover {
+    background-color: #ba8c04; }

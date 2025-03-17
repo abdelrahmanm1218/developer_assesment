@@ -1,0 +1,6 @@
+/* line 2, website/static/common/header.scss */
+.navbar .container {
+  color: red; }
+  /* line 4, website/static/common/header.scss */
+  .navbar .container .navbar-nav {
+    background-color: blue; }

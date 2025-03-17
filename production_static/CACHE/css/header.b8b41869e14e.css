@@ -1,0 +1,12 @@
+/* line 2, website/static/common/header.scss */
+.navbar .container {
+  background-color: green; }
+  /* line 4, website/static/common/header.scss */
+  .navbar .container .navbar-nav--links {
+    background-color: blue; }
+  /* line 7, website/static/common/header.scss */
+  .navbar .container .navbar-nav--actions {
+    background-color: red; }
+    /* line 9, website/static/common/header.scss */
+    .navbar .container .navbar-nav--actions .btn--signup {
+      background-color: #EAB308; }

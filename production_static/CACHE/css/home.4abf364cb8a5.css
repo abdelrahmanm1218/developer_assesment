@@ -1,0 +1,12 @@
+/* line 7, website/static/website/scss/home.scss */
+:root {
+  --primary-yellow-color: #EAB308;
+  --primary-yellow-hover-color: #ba8c04; }
+
+/* line 13, website/static/website/scss/home.scss */
+.hero .container .text {
+  background-color: red;
+  width: 50%; }
+  /* line 17, website/static/website/scss/home.scss */
+  .hero .container .text h1 span {
+    color: var(--primary-yellow-color); }

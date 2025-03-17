@@ -1,0 +1,15 @@
+/* line 2, website/static/common/header.scss */
+.navbar .container {
+  background-color: green; }
+  /* line 4, website/static/common/header.scss */
+  .navbar .container .navbar-nav--links {
+    background-color: blue; }
+  /* line 7, website/static/common/header.scss */
+  .navbar .container .navbar-nav--actions {
+    background-color: red; }
+    /* line 10, website/static/common/header.scss */
+    .navbar .container .navbar-nav--actions .nav-item a {
+      color: white; }
+    /* line 15, website/static/common/header.scss */
+    .navbar .container .navbar-nav--actions .nav-item .btn--signup {
+      background-color: #EAB308; }

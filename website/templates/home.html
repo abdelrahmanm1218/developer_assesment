@@ -23,7 +23,7 @@
 
 {% block website_body %}
 
-<div class="pages_container">
+<!-- <div class="pages_container">
 
     <div class="page-100">
 
@@ -31,8 +31,56 @@
 
     </div>
 
+</div> -->
+<div class="hero pt-5 pb-5">
+    <div class="container">
+        <div class="text">
+            <h1>Furniture that  reflect your <span>lifestyle</span></h1>
+            <p class="text-black-50">we provide you selected and best quality materials that suitable for your dream home.</p>
+            <button class="btn btn--get-started btn-primary rounded-pill">Get Started <i class="bi bi-arrow-up-right"></i></button>
+        </div>
+        <div class="images">
+            <img class="image--sofa" src="../../media/original/image8.png" alt="sofa image"/>
+            <img class="image--plant" src="../../media/original/image7.png" alt="plant image"/>
+        </div>
+    </div>
 </div>
-
+<div class="products pt-5 pb-5">
+    <div class="container">
+        <div class="header d-flex flex-column">
+            <h2 class="mb-3">Our products</h2>
+            <div class="wrapper d-flex">
+                <p class="products-description text-black-50">Shop a wide variety of furniture products to suite your unique life style and needs</p>
+                <button class="btn btn--see-more btn-primary rounded-pill">See More <i class="bi bi-arrow-up-right"></i></button>
+            </div>
+        </div>
+        <div class="gallery row mt-5">
+            {% for prod in products %}
+            <div class="card">
+                <img src="{{prod.image.url}}" class="card-img-top" alt="{{prod.name}}">
+                <span class="like">
+                    {% if prod.is_favorite%}
+                    <i class="bi bi-heart-fill"></i>
+                    {% else%}
+                    <i class="bi bi-heart"></i>
+                    {% endif%}
+                </span>
+                <div class="card-body">
+                    <h6 class="rating"> <i class="bi bi-star-fill"></i>{{prod.rating}}</h6>
+                    <div class="title-and-action">
+                        <h5 class="card-title">{{prod.name}}</h5>
+                        <button  class="btn btn--add-to-cart btn-primary ">+</button>
+                    </div>
+                    <p class="price">${{prod.price}}</p>
+                </div>
+            </div>
+            {% endfor%}
+        </div>
+    </div>
+</div>
+{% for prodcut in prodcucts %}
+    {{prodcut}}
+{% endfor%}
 {% block additional_dom_scripts %}
 
 {% endblock additional_dom_scripts %}

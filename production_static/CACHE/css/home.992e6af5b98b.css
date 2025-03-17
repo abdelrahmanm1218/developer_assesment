@@ -1,0 +1,22 @@
+/* line 7, website/static/website/scss/home.scss */
+:root {
+  --primary-yellow-color: #EAB308;
+  --primary-yellow-hover-color: #ba8c04; }
+
+/* line 13, website/static/website/scss/home.scss */
+.hero .container .text {
+  background-color: red;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; }
+  /* line 19, website/static/website/scss/home.scss */
+  .hero .container .text h1 {
+    font-weight: 700;
+    line-height: 120%; }
+    /* line 22, website/static/website/scss/home.scss */
+    .hero .container .text h1 span {
+      color: var(--primary-yellow-color); }
+  /* line 26, website/static/website/scss/home.scss */
+  .hero .container .text p {
+    width: 60%; }

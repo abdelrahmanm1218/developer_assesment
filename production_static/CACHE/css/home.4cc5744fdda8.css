@@ -1,0 +1,47 @@
+/* line 7, website/static/website/scss/home.scss */
+:root {
+  --primary-yellow-color: #EAB308;
+  --primary-yellow-hover-color: #ba8c04; }
+
+/* line 12, website/static/website/scss/home.scss */
+.hero .container {
+  display: flex; }
+  /* line 15, website/static/website/scss/home.scss */
+  .hero .container .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; }
+    /* line 21, website/static/website/scss/home.scss */
+    .hero .container .text h1 {
+      font-weight: 700;
+      line-height: 120%;
+      font-size: 30px; }
+      /* line 25, website/static/website/scss/home.scss */
+      .hero .container .text h1 span {
+        color: var(--primary-yellow-color); }
+    /* line 29, website/static/website/scss/home.scss */
+    .hero .container .text p {
+      width: 60%; }
+    /* line 32, website/static/website/scss/home.scss */
+    .hero .container .text .btn--get-started {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      border: none;
+      width: fit-content;
+      background-color: var(--primary-yellow-color);
+      transition: all 0.3s ease;
+      font-size: 12px;
+      font-weight: 500; }
+      /* line 43, website/static/website/scss/home.scss */
+      .hero .container .text .btn--get-started:hover {
+        background-color: var(--primary-yellow-hover-color); }
+  /* line 48, website/static/website/scss/home.scss */
+  .hero .container .images {
+    background-color: red;
+    width: 60%; }
+    /* line 51, website/static/website/scss/home.scss */
+    .hero .container .images img {
+      max-width: 100%; }
